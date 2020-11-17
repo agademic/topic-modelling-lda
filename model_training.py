@@ -98,8 +98,7 @@ if __name__ == '__main__':
 
     # ITERATE OVER POSSIBLE NUMBER OF TOPICS
     model_list, coherence_values = compute_coherence_values(dictionary=id2word, corpus=corpus, texts=processed_data, start=5, limit=50, step=5)
-
-    
+    print(f'### The coherence values are {coherence_values} ###')
     
     
     
