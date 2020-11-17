@@ -118,4 +118,4 @@ if __name__ == '__main__':
 
     # SAVE FILE
     with open('processed_data.txt', 'w') as f:
-        json.dump(new_data, f)
+        json.dump(processed_data, f)
