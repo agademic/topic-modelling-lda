@@ -65,7 +65,7 @@ if __name__ == '__main__':
         
     # CREATE DICTIONARY AND CORPUS
     id2word, corpus = create_bow(processed_data) # bag of words
-    id2word, tfidf_corpus = create_tfidf(processed_data) # tf-idf
+    # id2word, tfidf_corpus = create_tfidf(processed_data) # tf-idf
     
     # CHECK FREQUENT TOKENS
     dfs_desc = sorted(id2word.dfs.items(), key=lambda t: t[1], reverse=True)
@@ -97,9 +97,9 @@ if __name__ == '__main__':
     print(f'### The coherence score for the single model is {coherence_score}. ###')
 
     # ITERATE OVER POSSIBLE NUMBER OF TOPICS
-    # model_list, coherence_values = compute_coherence_values(dictionary=id2word, corpus=corpus, texts=processed_data, start=5, limit=50, step=5)
+    model_list, coherence_values = compute_coherence_values(dictionary=id2word, corpus=corpus, texts=processed_data, start=5, limit=50, step=5)
 
-
+    
     
     
     
