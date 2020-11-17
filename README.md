@@ -21,7 +21,7 @@ To find the optimal model, I loop over a range of possible topic numbers and cho
 
 ## Results for the best setup
 
-```bash
+```shell
 The coherence score for the best model is 0.54757210059955.
 ```
 ![coherence_values](https://user-images.githubusercontent.com/33003249/99414366-06242f80-28f7-11eb-90a2-9a30c886a94d.png)
