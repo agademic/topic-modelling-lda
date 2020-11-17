@@ -21,7 +21,7 @@ To find the optimal model, I loop over a range of possible topic numbers and cho
 
 ## Results for the best setup
 
-'''shell
+```bash
 2020-11-17 14:41:49,211 : INFO : topic #0 (2.939): 0.013*"gut" + 0.011*"jahr" + 0.011*"groß" + 0.010*"mensch" + 0.009*"immer" + 0.008*"geben" + 0.008*"schon" + 0.008*"finden" + 0.007*"gehen" + 0.007*"zeigen"
 2020-11-17 14:41:49,212 : INFO : topic #1 (1.785): 0.019*"erst" + 0.011*"tier" + 0.010*"weit" + 0.008*"erste" + 0.007*"kommen" + 0.007*"rund" + 0.007*"bereits" + 0.006*"ende" + 0.006*"tag" + 0.006*"bank"
 2020-11-17 14:41:49,214 : INFO : topic #2 (0.050): 0.036*"handel" + 0.024*"hund" + 0.017*"satz" + 0.011*"sammlung" + 0.010*"mitgliedsstaaten" + 0.008*"schlange" + 0.008*"fix" + 0.007*"korruption" + 0.007*"spielraum" + 0.006*"studentin"
@@ -32,7 +32,7 @@ To find the optimal model, I loop over a range of possible topic numbers and cho
 2020-11-17 14:41:49,219 : INFO : topic #7 (0.080): 0.043*"stern" + 0.035*"krankheit" + 0.028*"reduzieren" + 0.014*"auszeichnung" + 0.013*"italienisch" + 0.012*"farbe" + 0.008*"künstliche" + 0.007*"mehrheitlich" + 0.007*"tragisch" + 0.007*"krebs"
 2020-11-17 14:41:49,221 : INFO : topic #8 (0.008): 0.022*"welle" + 0.004*"reformieren" + 0.000*"quantenmechanik" + 0.000*"quantenphysik" + 0.000*"photon" + 0.000*"gravitationswellen" + 0.000*"elektron" + 0.000*"quantenoptik" + 0.000*"gedankenexperiment" + 0.000*"spalte"
 2020-11-17 14:41:49,222 : INFO : topic #9 (4.994): 0.013*"sagen" + 0.011*"sollen" + 0.011*"geben" + 0.008*"weit" + 0.007*"land" + 0.007*"neu" + 0.006*"etwa" + 0.006*"neue" + 0.006*"bereits" + 0.006*"müssen"
-'''
-'''shell
+```
+```bash
 The coherence score for the single model is 0.4015469738237324.
-'''
+```
